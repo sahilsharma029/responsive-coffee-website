@@ -1,9 +1,10 @@
-const btn = document.querySelector("button");
-btn.addEventListener("click",()=>{
-    console.log("clicked");
-})
+// const btn = document.getElementById("#btn");
+// btn.addEventListener("click",()=>{
+//     console.log("clicked");
+//     redirectToDirectory();
+// })
 
 function redirectToDirectory()
 {
-    window.location
+    window.location.href = "order.html";
 }
